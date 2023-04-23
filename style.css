@@ -1,0 +1,186 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: #7f0020;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+/* Header section */
+header {
+  background-color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #7f0020;
+}
+
+section {
+  text-align: center;
+}
+
+section ul {
+  display: flex;
+}
+
+section ul li {
+  flex: 1 0 0;
+  min-width: 0;
+  text-align: center;
+}
+
+/* Hero section */
+#hero {
+  background-color: #7f0020;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  max-height: 600px;
+}
+
+.cta-button {
+  background-color: white;
+  color: #7f0020;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.cta-button:hover {
+  background-color: #7f0020;
+  color: white;
+  cursor: pointer;
+}
+
+/* Features section */
+#features {
+  background-color: white;
+  padding: 4rem 1rem;
+}
+
+#features i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #7f0020;
+}
+
+/* Pricing section */
+#pricing {
+  background-color: grey;
+  color: white;
+  padding: 4rem 1rem;
+}
+
+#pricing li {
+  margin: 1rem 0;
+}
+
+/* Contact section */
+#contact {
+  background-color: white;
+  padding: 4rem 1rem;
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+  background-color: #7f0020;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+button[type="submit"]:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+form {
+  text-align: left;
+  margin: auto;
+  max-width: 600px;
+}
+
+/* Footer section */
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: auto;
+}
